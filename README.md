@@ -15,7 +15,7 @@ Este projeto é uma API REST desenvolvida em Java 21 utilizando Spring Boot, que
 
 ### 1. Clonar o Repositório
 ```bash
-git clone https://github.com/seu-usuario/hubspot-integration-api.git
+git clone https://github.com/SSantosAlex/hubspot-integration.git)
 cd hubspot-integration-api
 ```
 
