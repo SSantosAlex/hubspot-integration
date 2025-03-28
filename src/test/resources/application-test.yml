@@ -1,0 +1,13 @@
+hubspot:
+  client:
+    id: CLIENT_ID
+    secret: CLIENT_SECRET
+  api:
+    base-url: http://localhost:8089
+  redirect:
+    uri: http://localhost:8080/hubspot/oauth/callback
+  scope: crm.objects.contacts.write auth
+
+spring:
+  cache:
+    type: simple
