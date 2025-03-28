@@ -1,7 +1,7 @@
 # HubSpot Integration API
 
 ## Descrição
-Este projeto é uma API REST desenvolvida em Java 21 utilizando Spring Boot, que integra com a API do HubSpot. Ele implementa autenticação via OAuth 2.0 (authorization code flow), cria contatos no CRM e processa webhooks de criação de contatos.
+Este projeto é uma API REST desenvolvida em Java 21 utilizando Spring Framework, que integra com a API do HubSpot. Ele implementa autenticação via OAuth 2.0 (authorization code flow), cria contatos no CRM e processa webhooks de criação de contatos.
 
 ## Tecnologias Utilizadas
 - Java 21
