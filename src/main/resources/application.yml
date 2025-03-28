@@ -1,0 +1,21 @@
+hubspot:
+  client:
+    id: id da aplicação no hubspot(recomendado adicionar em algum cofre de senha ou criptografar)
+    secret: senha da aplicação no hubspot(recomendado adicionar em algum cofre de senha ou criptografar)
+  api:
+    base-url: https://api.hubapi.com
+  redirect:
+    uri: http://localhost:8080/auth/callback
+  scope: crm.objects.contacts.write auth
+
+spring:
+  cache:
+    type: simple
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
